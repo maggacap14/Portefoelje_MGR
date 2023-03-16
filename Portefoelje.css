@@ -1,0 +1,121 @@
+@charset "utf-8";
+
+header {
+	background-color: #EEAB47;
+	padding: 5px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "Rampart One", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	text-rendering: optimizeLegibility;
+	font-size: 40px;
+}
+
+.dropbtn {
+	background-color: #EEAB47;
+	color: black;
+	text-transform: uppercase;
+	text-decoration-line: underline;
+	font-family: Impact, "Arial Black", "sans-serif";
+	text-rendering: optimizeLegibility;
+	padding: 16px;
+	font-size: 30px;
+	border: none;
+	cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+	background-color: #EEAB47;
+	width: 100%;
+	display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	font-family: "Arial Black", "sans-serif";
+	text-rendering: optimizeLegibility;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+	background-color: #E08626;
+}
+
+
+body {
+	   background-color: ghostwhite;
+	}
+
+#cvbilde {
+		max-width: 100%;
+  		height: 500px;
+        border-radius: 15px;
+        border: 2px;
+        border-color: black;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		}
+        
+.overskrift {
+		background-color: #EEAB47;
+		padding: 2px;
+		text-transform: uppercase;
+        font-family: "Arial Black", "sans-serif";
+		text-rendering: optimizeLegibility;
+		text-align: center;
+    	}
+	
+
+    h2 {
+        font-family: Arial, Helvetica, sans-serif;
+		text-rendering: optimizeLegibility;
+		text-align: center;
+		text-decoration:underline;
+		text-decoration-color: #A8EBFF;
+		padding-top: 20px;
+    	}
+	
+    h3 {
+        font-family: Arial, Helvetica, sans-serif;
+		text-rendering: optimizeLegibility;
+		text-align: center;
+    	}
+	
+    ul{
+		font-family: Arial, Helvetica, sans-serif;
+		text-rendering: optimizeLegibility;
+		text-align: center;
+		list-style-type: none;
+		padding-bottom: 80px;
+}
+
+	ul li {
+		font-family: Arial, Helvetica, sans-serif;
+		text-rendering: optimizeLegibility;
+		display: block;
+		padding: 0.4rem;
+		text-align: center;
+}
