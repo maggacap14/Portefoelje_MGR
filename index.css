@@ -8,7 +8,7 @@ header {
 	text-transform: uppercase;
 	font-family: "Rampart One", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	text-rendering: optimizeLegibility;
-	font-size: 40px;
+	font-size: absolute;
 	width: 100%;
 }
 
