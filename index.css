@@ -3,12 +3,11 @@
 
 header {
 	background-color: #EEAB47;
-	padding: 16px;
+	padding: 5px;
 	text-align: center;
 	text-transform: uppercase;
 	font-family: "Rampart One", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	text-rendering: optimizeLegibility;
-	font-size: absolute;
 	width: 100%;
 }
 
