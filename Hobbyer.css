@@ -105,6 +105,7 @@ body {
 
 	.TMac {
 		width: 450px;
+		max-width: 100%;
 		border: 8px solid black;
 		margin-bottom: 50px;
 		margin-top: 5px;
@@ -112,6 +113,7 @@ body {
 
 	.Ronaldinho {
 		width: 450px;
+		max-width: 100%;
 		border: 8px solid black;
 		margin-bottom: 50px;
 		margin-top: 5px;
@@ -119,6 +121,7 @@ body {
 
 	.Bolt {
 		width: 450px;
+		max-width: 100%;
 		border: 8px solid black;
 		margin-bottom: 50px;
 		margin-top: 5px;
