@@ -8,8 +8,7 @@ header {
 	text-align: center;
 	text-transform: uppercase;
 	font-family: "Rampart One", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-	text-rendering: optimizeLegibility;
-	font-size: 40vw;
+	font-size: 10vw;
 }
 
 .dropbtn {
