@@ -7,25 +7,23 @@
 	<link href="Hobbyer.css" rel="stylesheet" type="text/css">
 </head>
 	
-	<header>
-		<h1><a href="index.html" style="text-decoration: none; font-size:10vw; color: black">Portefølje</a></h1>	
-	</header>
-
-	<div class="dropdown">
-		<button class="dropbtn"><a href="index.html">Meny</a></button>
-		<div class="dropdown-content">
-    		<a href="Grafiske prosjekter.html">Grafiske prosjekter</a>
-    		<a href="Videoer.html">Videoer</a>
-    		<a href="Hobbyer.html">Hobbyer</a>
-		</div>
-	</div>
+<div class="topnav" id="minTopNav">
+	<a href="index.html">Hjem</a>
+	<a href="Grafiske prosjekter.html">Grafiske prosjekter</a>
+	<a href="Videoer.html">Videoer</a>
+	<a href="Hobbyer.html" class="active">Hobbyer</a>
+	<a href="javascript:void(0);" class="icon" onclick="myFunction()"> 
+	<i class="fa fa-bars"></i>
+	</a>
+</div>
 	
 	<body>
 		<h1 class="hob">Hobbyer</h1>
 
 		<h2 class="Sport">Sport</h2>
 		<h2>Basketball</h2>
-		<p>Jeg har tidligere spilt basketball selv, for Stjørdal og Ranheim. Favorittlaget mitt innen basket er NBA-laget Houston Rockets.</p>
+		<p>Jeg har tidligere spilt basketball selv, for Stjørdal og Ranheim. Jeg har nylig begynt som trener for gutter for Ranheim.</p>
+		<p>Favorittlaget mitt innen basket er NBA-laget Houston Rockets.</p>
 		<p>Jeg liker å se på underholdende basket som bruker alle fem spillerne på banen aktivt med masse bevegelse mellom spillerne.</p> 
 		<h4>"Poetry in Motion"</h4>
 		
@@ -38,7 +36,8 @@
 		<img class="Ronaldinho" src="Bilde/Ronaldinho.jpg" alt="Ronaldinho">
 
 		<h2>Friidrett</h2>
-		<p>Jeg liker å se på friidrett fordi jeg liker å løpe selv. Det er imponerende å se hva verdens beste kan få til på en løpebane. I tillegg så er det så målbart. Du kan selv måle din tid på samme distanse.</p>
+		<p>Jeg liker å se på friidrett fordi jeg liker å løpe selv. Det er imponerende å se hva verdens beste kan få til på en løpebane.</p>
+		<p>I tillegg så er det så målbart. Du kan selv måle din tid på samme distanse.</p>
 		<p>Den største atleten jeg har sett er Usain Bolt.</p>
 		<img class="Bolt" src="Bilde/Usain Bolt.jpg" alt="Usain Bolt">
 
@@ -52,29 +51,61 @@
 			<div class="desc">Archer</div>
 		  </div>
 		  
-		  <div class="gallery">
+		<div class="gallery">
 			<a target="_blank" href="Bilde/Prestige.jpg">
 			  <img src="Bilde/Prestige.jpg" alt="The prestige" width="800" height="400">
 			</a>
 			<div class="desc">The Prestige</div>
-		  </div>
+		</div>
 		  
-		  <div class="gallery">
+		<div class="gallery">
 			<a target="_blank" href="Bilde/the_last_dance.jpg">
 			  <img src="Bilde/the_last_dance.jpg" alt="The Last Dance" width="800" height="400">
 			</a>
 			<div class="desc">The Last Dance</div>
-		  </div>
+		</div>
 		  
-		  <div class="gallery">
+		<div class="gallery">
 			<a target="_blank" href="Bilde/winning_time.jpg">
 			  <img src="Bilde/winning_time.jpg" alt="Winning Time" width="800" height="400">
 			</a>
 			<div class="desc">Winning Time</div>
-		  </div>
+		</div>
 
-		  <div class="clearfix"></div>
-	
+		<div class="clearfix"></div>
+		
+		<h2 class="Bøker">Bøker</h2>
+		<p>Jeg liker å lese bøker. Favorittsjangerne mine er fantasy og krim.</p>
+		<p>Her er noen av mine favoritt bokserier:</p>
+		<div class="gallery">
+			  <a target="_blank" href="Bilde/harry_potter.jpeg">
+				<img src="Bilde/harry_potter.jpeg" alt="Harry Potter" width="800" height="400">
+			  </a>
+			  <div class="desc">Harry Potter</div>
+		</div>
+			
+		<div class="gallery">
+			  <a target="_blank" href="Bilde/det_gyldne_kompass.jpeg">
+				<img src="Bilde/det_gyldne_kompass.jpeg" alt="Det gyldne kompass" width="800" height="400">
+			  </a>
+			  <div class="desc">Det gyldne kompass</div>
+		</div>
+			
+		<div class="gallery">
+			  <a target="_blank" href="Bilde/percy_jackson.webp">
+				<img src="Bilde/percy_jackson.webp" alt="Percy Jackson" width="800" height="400">
+			  </a>
+			  <div class="desc">Percy Jackson</div>
+		</div>
+			
+		<div class="gallery">
+			  <a target="_blank" href="Bilde/harry_hole.jpeg">
+				<img src="Bilde/harry_hole.jpeg" alt="Harry Hole" width="800" height="400">
+			  </a>
+			  <div class="desc">Harry Hole</div>
+		</div>
+  
+			<div class="clearfix"></div>
 		<h2 class="Gaming">Gaming</h2>
 		<p>Jeg liker å spille konsollspill. Favorittsjangerne mine er eventyrspill og sportsspill.</p>
 		<p>Her er noen av mine favoritter innen spill:</p>
@@ -83,37 +114,44 @@
 			  <img src="Bilde/Horizon_Zero_Dawn.jpeg" alt="Horizon Zero Dawn" width="800" height="400">
 			</a>
 			<div class="desc">Horizon Zero Dawn</div>
-		  </div>
+		</div>
 		  
-		  <div class="gallery">
+		<div class="gallery">
 			<a target="_blank" href="Bilde/horizon_forbidden_west.webp">
 			  <img src="Bilde/horizon_forbidden_west.webp" alt="Horizon Forbidden West" width="800" height="400">
 			</a>
 			<div class="desc">Horizon Forbidden West</div>
-		  </div>
+		</div>
 		  
-		  <div class="gallery">
+		<div class="gallery">
 			<a target="_blank" href="Bilde/hogwarts_legacy.webp">
 			  <img src="Bilde/hogwarts_legacy.webp" alt="Hogwarts Legacy" width="800" height="400">
 			</a>
 			<div class="desc">Hogwarts Legacy</div>
-		  </div>
+		</div>
+
+		<div class="gallery">
+			<a target="_blank" href="Bilde/ratchet_and_clank.jpeg">
+			  <img src="Bilde/ratchet_and_clank.jpeg" alt="Ratchet & Clank" width="800" height="400">
+			</a>
+			<div class="desc">Ratchet & Clank</div>
+		</div>
 		  
-		  <div class="gallery">
+		<div class="gallery">
 			<a target="_blank" href="Bilde/nba2k.jpeg">
 			  <img src="Bilde/nba2k.jpeg" alt="NBA 2K" width="800" height="400">
 			</a>
 			<div class="desc">NBA 2K</div>
-		  </div>
+		</div>
 
-		  <div class="gallery">
+		<div class="gallery">
 			<a target="_blank" href="Bilde/fifa22.jpeg">
 			  <img src="Bilde/fifa22.jpeg" alt="FIFA" width="800" height="400">
 			</a>
 			<div class="desc">FIFA</div>
-		  </div>
+		</div>
 
-		  <div class="clearfix"></div>
+		<div class="clearfix"></div>
 
 	</body>
 </html>
