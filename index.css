@@ -3,13 +3,13 @@
 
 /* Add a black background color to the top navigation */
 .topnav {
-	background-color: #659EFC33;
+	background-color: #4F92FF;
 	overflow: hidden;
 	border-radius: 5px;
-  }
+}
   
   /* Style the links inside the navigation bar */
-  .topnav a {
+.topnav a {
 	float: left;
 	display: block;
 	color: #0D1420;
@@ -18,27 +18,39 @@
 	text-decoration: none;
 	font-size: 17px;
 	border-radius: 5px;
-  }
+}
   
-  /* Change the color of links on hover */
-  .topnav a:hover {
-	background-color: #4C77BD;
+/* Change the color of links on hover */
+.topnav a:hover {
+	background-color: #1666E4;
 	color: ghostwhite;
 	border-radius: 5px;
-  }
+}
   
-  /* Add an active class to highlight the current page */
-  .topnav a.active {
-	background-color: #334F7E;
+/* Add an active class to highlight the current page */
+.topnav a.active {
+	background-color: #11326b;
 	color: ghostwhite;
 	border-top-left-radius: 5px;
 	border-bottom-left-radius: 5px;
-  }
+}
   
-  /* Hide the link that should open and close the topnav on small screens */
-  .topnav .icon {
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
 	display: none;
-  }
+}
+
+ /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+  
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+	padding-top: 60px;
+}
 
 body {
 	   background-color: ghostwhite;
@@ -56,7 +68,7 @@ body {
 		}
         
 .overskrift {
-		background-color: #659EFC;
+		background-color: #4F92FF;
 		padding: 2px;
 		border-radius: 20px;
 		text-transform: uppercase;
@@ -65,6 +77,7 @@ body {
 		text-align: center;
 		margin-bottom: 80px;
     	}
+
 		.fa-brands {
 			padding: 20px;
 			font-size: 30px;

@@ -7,11 +7,11 @@
 	<link href="Hobbyer.css" rel="stylesheet" type="text/css">
 </head>
 	
-<div class="topnav" id="minTopNav">
+<div class="topnav" id="topnav">
 	<a href="index.html">Hjem</a>
 	<a href="Grafiske prosjekter.html">Grafiske prosjekter</a>
 	<a href="Videoer.html">Videoer</a>
-	<a href="Hobbyer.html" class="active">Hobbyer</a>
+	<a href="Hobbyer.html" class="topnav">Hobbyer</a>
 	<a href="javascript:void(0);" class="icon" onclick="myFunction()"> 
 	<i class="fa fa-bars"></i>
 	</a>
@@ -152,6 +152,21 @@
 		</div>
 
 		<div class="clearfix"></div>
+
+		<script>
+			window.onscroll = function() {myFunction()};
+			
+			var navbar = document.getElementById("topnav");
+			var sticky = navbar.offsetTop;
+			
+			function myFunction() {
+			  if (window.pageYOffset >= sticky) {
+				navbar.classList.add("sticky")
+			  } else {
+				navbar.classList.remove("sticky");
+			  }
+			}
+		</script>
 
 	</body>
 </html>

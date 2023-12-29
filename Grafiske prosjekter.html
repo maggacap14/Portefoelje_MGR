@@ -7,9 +7,9 @@
 	<link href="Grafiske prosjekter.css" rel="stylesheet" type="text/css">
 </head>
 	
-<div class="topnav" id="minTopNav">
+<div class="topnav" id="topnav">
 	<a href="index.html">Hjem</a>
-	<a href="Grafiske prosjekter.html" class="active">Grafiske prosjekter</a>
+	<a href="Grafiske prosjekter.html" class="topnav">Grafiske prosjekter</a>
 	<a href="Videoer.html">Videoer</a>
 	<a href="Hobbyer.html">Hobbyer</a>
 	<a href="javascript:void(0);" class="icon" onclick="myFunction()"> 
@@ -20,10 +20,25 @@
 <body>
 	<h1 class="gp">Grafiske prosjekter</h1>
 	<h3>Prosjektene er rangert fra nyeste prosjekt til det gamleste.</h3>
-		
+<div>
 	<iframe src="PDF/Grafisk portefølje Magnus Grøtte Renå.pdf" width="80%" height="880px">
 	</iframe>
+</div>
+
+	<script>
+		window.onscroll = function() {myFunction()};
 		
+		var navbar = document.getElementById("topnav");
+		var sticky = navbar.offsetTop;
+		
+		function myFunction() {
+		  if (window.pageYOffset >= sticky) {
+			navbar.classList.add("sticky")
+		  } else {
+			navbar.classList.remove("sticky");
+		  }
+		}
+	</script>
 		
 </body>
 
