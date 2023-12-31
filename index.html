@@ -9,7 +9,7 @@
 	<script src="https://kit.fontawesome.com/9cdcaa1f95.js" crossorigin="anonymous"></script>
 </head>
 
-<div class="topnav" id="topnav">
+<div class="topnav" id="myTopnav">
 	<a href="index.html" class="active">Hjem</a>
 	<a href="Grafiske prosjekter.html">Grafiske prosjekter</a>
 	<a href="Videoer.html">Videoer</a>
@@ -61,6 +61,17 @@
 		  <li>Adobe Dimension</li>
         </ul>
 	</div>
+
+	<script>
+		function myFunction() {
+		  var x = document.getElementById("myTopnav");
+		  if (x.className === "topnav") {
+			x.className += " responsive";
+		  } else {
+			x.className = "topnav";
+		  }
+		}
+	</script>
 
 	<script>
 		window.onscroll = function() {myFunction()};

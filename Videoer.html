@@ -7,7 +7,7 @@
 	<link href="Videoer.css" rel="stylesheet" type="text/css">
 </head>
 
-<div class="topnav" id="topnav">
+<div class="topnav" id="myTopnav">
 	<a href="index.html">Hjem</a>
 	<a href="Grafiske prosjekter.html">Grafiske prosjekter</a>
 	<a href="Videoer.html" class="active">Videoer</a>
@@ -36,6 +36,17 @@
 	<h2>Elektronisk medisindispenser</h2>
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/AjTFhQEXdCc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
+
+	<script>
+		function myFunction() {
+	  	var x = document.getElementById("myTopnav");
+	  	if (x.className === "topnav") {
+			x.className += " responsive";
+	  	} else {
+			x.className = "topnav";
+	  	}
+		}
+	</script>
 
 	<script>
 		window.onscroll = function() {myFunction()};

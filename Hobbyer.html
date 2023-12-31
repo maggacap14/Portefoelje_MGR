@@ -7,7 +7,7 @@
 	<link href="Hobbyer.css" rel="stylesheet" type="text/css">
 </head>
 	
-<div class="topnav" id="topnav">
+<div class="topnav" id="myTopnav">
 	<a href="index.html">Hjem</a>
 	<a href="Grafiske prosjekter.html">Grafiske prosjekter</a>
 	<a href="Videoer.html">Videoer</a>
@@ -152,6 +152,17 @@
 		</div>
 
 		<div class="clearfix"></div>
+
+		<script>
+			function myFunction() {
+			  var x = document.getElementById("myTopnav");
+			  if (x.className === "topnav") {
+				x.className += " responsive";
+			  } else {
+				x.className = "topnav";
+			  }
+			}
+		</script>
 
 		<script>
 			window.onscroll = function() {myFunction()};
