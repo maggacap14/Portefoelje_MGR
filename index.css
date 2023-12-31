@@ -5,7 +5,6 @@
 .topnav {
 	background-color: #4F92FF;
 	overflow: hidden;
-	border-radius: 5px;
 }
   
   /* Style the links inside the navigation bar */
@@ -17,22 +16,18 @@
 	padding: 14px 16px;
 	text-decoration: none;
 	font-size: 17px;
-	border-radius: 5px;
 }
   
 /* Change the color of links on hover */
 .topnav a:hover {
 	background-color: #1666E4;
 	color: ghostwhite;
-	border-radius: 5px;
 }
   
 /* Add an active class to highlight the current page */
 .topnav a.active {
 	background-color: #11326b;
 	color: ghostwhite;
-	border-top-left-radius: 5px;
-	border-bottom-left-radius: 5px;
 }
   
 /* Hide the link that should open and close the topnav on small screens */
